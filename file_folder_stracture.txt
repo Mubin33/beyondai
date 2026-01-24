@@ -1,0 +1,63 @@
+my-next-project/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx                // Home page
+│   ├── not-found.tsx           // Custom 404 Page
+│   │
+│   ├── about/
+│   │   └── page.tsx
+│   │
+│   ├── services/
+│   │   └── page.tsx
+│   │
+│   ├── contact/
+│   │   └── page.tsx
+│   │
+│   ├── faqs/
+│   │   └── page.tsx
+│   │
+│   ├── api/                    // API Routes
+│   │   ├── send-mail/
+│   │   │   └── route.ts
+│   │   └── feedback/
+│   │       └── route.ts
+│
+├── components/                 // All reusable UI components
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── Button.tsx
+│   ├── Card.tsx
+│   └── Form/
+│       ├── Input.tsx
+│       ├── TextArea.tsx
+│       └── Select.tsx
+│
+├── lib/                        // Helper functions / utilities
+│   ├── axiosClient.ts
+│   ├── validators.ts
+│   └── constants.ts
+│
+├── hooks/                      // Custom React hooks
+│   ├── useToggle.ts
+│   └── useScroll.ts
+│
+├── public/                     // All static assets
+│   ├── images/
+│   │   ├── logo.png
+│   │   └── banner.jpg
+│   └── icons/
+│
+├── styles/
+│   ├── globals.css
+│   ├── variables.css
+│   └── animations.css
+│
+├── types/                      // TypeScript interfaces
+│   ├── index.ts
+│   └── api.ts
+│
+├── .env.local                  // Environment variables
+├── next.config.js
+├── package.json
+└── tsconfig.json
